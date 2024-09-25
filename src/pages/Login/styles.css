@@ -1,0 +1,11 @@
+.input-password {
+  position: relative;
+}
+
+.icon-eye {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}

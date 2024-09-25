@@ -1,0 +1,42 @@
+.container-card {
+  width: 15rem;
+}
+
+.container-card img {
+  width: 13rem;
+  height: 13rem;
+  object-fit: contain;
+}
+
+.btn-buy {
+  background-color: var(--pink);
+}
+
+.btn-buy:hover,
+.btn-buy:focus {
+  background-color: var(--purple);
+}
+
+.card-title,
+.card-text {
+  color: var(--dark);
+}
+
+.card-subtitle {
+  color: var(--dark-purple);
+}
+
+/* Styles to apply on Cart */
+
+.container-card-cart {
+  width: 100%;
+  flex-direction: row;
+  gap: 1rem;
+  padding-inline: 1rem;
+}
+
+.container-card-cart img {
+  width: 7rem;
+  height: 7rem;
+  object-fit: contain;
+}

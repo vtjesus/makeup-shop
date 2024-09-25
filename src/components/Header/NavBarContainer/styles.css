@@ -1,0 +1,50 @@
+.img-container {
+  width: 50%;
+  max-width: 280px;
+}
+
+.link-home {
+  color: var(--gray);
+  text-decoration: none;
+  padding: 8px;
+}
+
+.link-home:hover {
+  color: var(--pink);
+}
+
+.container-nav-and-input {
+  width: 100%;
+}
+
+.text-nav {
+  font-size: 18px;
+}
+
+.btn-search {
+  background-color: var(--pink);
+  border: 0;
+}
+
+.btn-search:hover {
+  background-color: var(--pink);
+  opacity: 0.8;
+}
+
+.btn-search:focus {
+  background-color: var(--pink);
+}
+
+@media (min-width: 992px) {
+  .container-nav-and-input {
+    width: 60%;
+  }
+}
+@media (min-width: 1200px) {
+  .container-nav-and-input {
+    width: 100%;
+  }
+  .text-nav {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,60 @@
+:root {
+  --font: "Questrial", sans-serif;
+  --font-secondary: "PT Serif", serif;
+  --pink: #ff4f9d;
+  --purple: #884cd2;
+  --dark-purple: #3d005c;
+  --offwhite: #f9f8f6;
+  --dark: #1c1a1d;
+  --white: #fff;
+  --gray: #70706f;
+}
+
+body {
+  font-family: var(--font);
+}
+
+/* Bootstrap Classes Overwritten */
+
+.btn-primary {
+  --bs-btn-active-bg: var(--pink);
+}
+
+.dropdown-menu {
+  padding: 0;
+  border: none;
+}
+
+.dropdown-item {
+  all: unset;
+}
+
+.dropdown-item:hover {
+  all: unset;
+}
+
+.nav-link {
+  color: var(--gray);
+  text-decoration: none;
+  padding: 8px;
+}
+
+.nav-link:hover {
+  color: var(--pink);
+}
+
+.navbar-nav .nav-link.show {
+  color: var(--pink);
+}
+
+.navbar-toggler {
+  border-color: var(--pink);
+}
+
+.navbar-toggler-icon {
+  background-image: url(/assets/icon-bars.png);
+}
+
+.card-title {
+  color: var(--pink);
+}
